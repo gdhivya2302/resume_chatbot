@@ -1,0 +1,12 @@
+streamlit
+chromadb
+pypdf
+sentence-transformers
+google-generativeai
+google-api-python-client
+google-auth-oauthlib
+scikit-learn
+numpy
+pandas
+plotly
+python-docx
