@@ -1,4 +1,4 @@
-name: CI-CD Pipeline
+name: CI-CD Pipeline for Streamlit App
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout source code
       uses: actions/checkout@v4
 
     - name: Set up Docker Buildx
@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: dhivya12302/streamlit-decoder:latest
+        tags: dhivya12302/c66-image:latest
